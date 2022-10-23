@@ -9,7 +9,6 @@ properties(
   ]
 )
 
-@Library("Infrastructure")
 
 def type = "java"
 def product = "fis"
