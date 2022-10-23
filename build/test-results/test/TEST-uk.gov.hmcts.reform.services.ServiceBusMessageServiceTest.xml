@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.gov.hmcts.reform.services.ServiceBusMessageServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-23T19:13:29" hostname="AMBGB000242" time="0.103">
+  <properties/>
+  <testcase name="processMessageFromTopicTest()" classname="uk.gov.hmcts.reform.services.ServiceBusMessageServiceTest" time="0.098"/>
+  <testcase name="processMessageFromTopicWithInvalidRequestBodyShouldThrowInvalidCpoUpdateRequestException()" classname="uk.gov.hmcts.reform.services.ServiceBusMessageServiceTest" time="0.005"/>
+  <system-out><![CDATA[2022-10-23T20:13:30.045 INFO  [Test worker] u.g.h.reform.services.ServiceBusMessageServiceImpl Hearing message body: {"hmctsServiceCode":"hmctsServiceCode","caseRef":"caseRef","hearingID":"hearingID","hearingUpdate":"hearingUpdate"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

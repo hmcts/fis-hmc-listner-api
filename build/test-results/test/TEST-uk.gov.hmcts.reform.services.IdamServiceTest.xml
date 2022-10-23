@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.gov.hmcts.reform.services.IdamServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-23T19:13:28" hostname="AMBGB000242" time="1.61">
+  <properties/>
+  <testcase name="methodGetAccessTokenWhenIdamIsUnavailableShouldThrowCpoUpdateException()" classname="uk.gov.hmcts.reform.services.IdamServiceTest" time="1.507"/>
+  <testcase name="methodGetAccessTokenWhenIdamSendsBadRequestShouldThrowCpoUpdateException()" classname="uk.gov.hmcts.reform.services.IdamServiceTest" time="0.006"/>
+  <testcase name="methodGetAccessTokenShouldMakeCallToIdamApi()" classname="uk.gov.hmcts.reform.services.IdamServiceTest" time="0.096"/>
+  <system-out><![CDATA[2022-10-23T20:13:29.501 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl getSecurityTokens
+2022-10-23T20:13:29.503 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl clientId null
+2022-10-23T20:13:29.504 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl clientSecret null
+2022-10-23T20:13:29.528 ERROR [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl exception 503 SERVICE_UNAVAILABLE
+2022-10-23T20:13:29.538 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl getSecurityTokens
+2022-10-23T20:13:29.538 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl clientId null
+2022-10-23T20:13:29.538 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl clientSecret null
+2022-10-23T20:13:29.538 ERROR [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl exception 400 BAD_REQUEST
+2022-10-23T20:13:29.553 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl getSecurityTokens
+2022-10-23T20:13:29.553 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl clientId null
+2022-10-23T20:13:29.553 INFO  [Test worker] uk.gov.hmcts.reform.services.IdamServiceImpl clientSecret null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
